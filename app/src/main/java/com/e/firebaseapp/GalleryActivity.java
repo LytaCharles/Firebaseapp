@@ -34,6 +34,7 @@ public class GalleryActivity extends AppCompatActivity {
         EditText enterName = (EditText)findViewById(R.id.et_entername_id);
         EditText phoneNumber = (EditText)findViewById(R.id.et_phonenumber_id);
         EditText emailAdress = (EditText)findViewById(R.id.et_emailadress_id);
+
        btchooseImage.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
